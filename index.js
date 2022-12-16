@@ -2,6 +2,10 @@
 const express = require('express');
 //set up the Port Number
 const port = 6000;
+//importing the database 
+const db = require('./config/mongoose');
+//imorting the schema for todo
+const Todo = require('./model/todo');
 
 
 
